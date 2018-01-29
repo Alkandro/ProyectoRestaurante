@@ -9,9 +9,13 @@
 import UIKit
 
 class FirstViewController: UIViewController {
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        //con esto cambiamos el color de la barra de abajo
+        self.tabBarController?.tabBar.barTintColor = UIColor (patternImage: UIImage(named: "patronColor")!)
+       
         // Do any additional setup after loading the view, typically from a nib.
     }
 

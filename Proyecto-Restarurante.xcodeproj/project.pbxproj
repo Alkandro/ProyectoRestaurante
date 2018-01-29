@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		641B8F8B201C8AB300D5957B /* OrdenesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641B8F8A201C8AB300D5957B /* OrdenesViewController.swift */; };
+		641B8F8D201C8B0900D5957B /* OrdenCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641B8F8C201C8B0900D5957B /* OrdenCellTableViewCell.swift */; };
+		641D14851FB91F16009F9DCC /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 641D14831FB91F16009F9DCC /* DataBase.m */; };
+		641D14881FB924B5009F9DCC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 641D14871FB920CA009F9DCC /* libsqlite3.tbd */; };
+		642F2C7A201BF4AC00598696 /* ComidasBD.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 642F2C79201BF4A800598696 /* ComidasBD.sqlite */; };
+		646BE7F62002D9CE00F49296 /* CheffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646BE7F52002D9CE00F49296 /* CheffViewController.swift */; };
+		647F54DA1FAFCA470056A74D /* CustomCellPlatosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647F54D91FAFCA470056A74D /* CustomCellPlatosTableViewCell.swift */; };
+		647F54DC1FAFE1070056A74D /* DetallePlatoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647F54DB1FAFE1070056A74D /* DetallePlatoTableViewController.swift */; };
+		64B31AD51FA690D60029B134 /* CategoriaCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B31AD41FA690D60029B134 /* CategoriaCellTableViewCell.swift */; };
+		64B31AD71FA699160029B134 /* PlatosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B31AD61FA699160029B134 /* PlatosTableViewController.swift */; };
 		64D8F5131F9D5175005D0072 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8F5121F9D5175005D0072 /* AppDelegate.swift */; };
 		64D8F5151F9D5175005D0072 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8F5141F9D5175005D0072 /* FirstViewController.swift */; };
 		64D8F5171F9D5175005D0072 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D8F5161F9D5175005D0072 /* SecondViewController.swift */; };
@@ -16,6 +26,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		641B8F8A201C8AB300D5957B /* OrdenesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdenesViewController.swift; sourceTree = "<group>"; };
+		641B8F8C201C8B0900D5957B /* OrdenCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdenCellTableViewCell.swift; sourceTree = "<group>"; };
+		641D14821FB91F15009F9DCC /* Proyecto-Restarurante-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Proyecto-Restarurante-Bridging-Header.h"; sourceTree = "<group>"; };
+		641D14831FB91F16009F9DCC /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+		641D14841FB91F16009F9DCC /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		641D14871FB920CA009F9DCC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		642F2C79201BF4A800598696 /* ComidasBD.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ComidasBD.sqlite; sourceTree = "<group>"; };
+		646BE7F52002D9CE00F49296 /* CheffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheffViewController.swift; sourceTree = "<group>"; };
+		647F54D91FAFCA470056A74D /* CustomCellPlatosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellPlatosTableViewCell.swift; sourceTree = "<group>"; };
+		647F54DB1FAFE1070056A74D /* DetallePlatoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallePlatoTableViewController.swift; sourceTree = "<group>"; };
+		64B31AD41FA690D60029B134 /* CategoriaCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaCellTableViewCell.swift; sourceTree = "<group>"; };
+		64B31AD61FA699160029B134 /* PlatosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatosTableViewController.swift; sourceTree = "<group>"; };
 		64D8F50F1F9D5175005D0072 /* Proyecto-Restarurante.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proyecto-Restarurante.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D8F5121F9D5175005D0072 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64D8F5141F9D5175005D0072 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +53,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				641D14881FB924B5009F9DCC /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		641D14861FB920CA009F9DCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				641D14871FB920CA009F9DCC /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		64D8F5061F9D5175005D0072 = {
 			isa = PBXGroup;
 			children = (
 				64D8F5111F9D5175005D0072 /* Proyecto-Restarurante */,
 				64D8F5101F9D5175005D0072 /* Products */,
+				641D14861FB920CA009F9DCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +88,24 @@
 		64D8F5111F9D5175005D0072 /* Proyecto-Restarurante */ = {
 			isa = PBXGroup;
 			children = (
+				642F2C79201BF4A800598696 /* ComidasBD.sqlite */,
+				641D14841FB91F16009F9DCC /* DataBase.h */,
+				641D14831FB91F16009F9DCC /* DataBase.m */,
 				64D8F5121F9D5175005D0072 /* AppDelegate.swift */,
 				64D8F5141F9D5175005D0072 /* FirstViewController.swift */,
 				64D8F5161F9D5175005D0072 /* SecondViewController.swift */,
+				64B31AD61FA699160029B134 /* PlatosTableViewController.swift */,
+				647F54DB1FAFE1070056A74D /* DetallePlatoTableViewController.swift */,
 				64D8F5181F9D5175005D0072 /* Main.storyboard */,
 				64D8F51B1F9D5175005D0072 /* Assets.xcassets */,
 				64D8F51D1F9D5175005D0072 /* LaunchScreen.storyboard */,
 				64D8F5201F9D5175005D0072 /* Info.plist */,
+				64B31AD41FA690D60029B134 /* CategoriaCellTableViewCell.swift */,
+				647F54D91FAFCA470056A74D /* CustomCellPlatosTableViewCell.swift */,
+				641D14821FB91F15009F9DCC /* Proyecto-Restarurante-Bridging-Header.h */,
+				646BE7F52002D9CE00F49296 /* CheffViewController.swift */,
+				641B8F8A201C8AB300D5957B /* OrdenesViewController.swift */,
+				641B8F8C201C8B0900D5957B /* OrdenCellTableViewCell.swift */,
 			);
 			path = "Proyecto-Restarurante";
 			sourceTree = "<group>";
@@ -99,6 +142,7 @@
 				TargetAttributes = {
 					64D8F50E1F9D5175005D0072 = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -128,6 +172,7 @@
 			files = (
 				64D8F51F1F9D5175005D0072 /* LaunchScreen.storyboard in Resources */,
 				64D8F51C1F9D5175005D0072 /* Assets.xcassets in Resources */,
+				642F2C7A201BF4AC00598696 /* ComidasBD.sqlite in Resources */,
 				64D8F51A1F9D5175005D0072 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,8 +185,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				64D8F5171F9D5175005D0072 /* SecondViewController.swift in Sources */,
+				641B8F8B201C8AB300D5957B /* OrdenesViewController.swift in Sources */,
+				64B31AD71FA699160029B134 /* PlatosTableViewController.swift in Sources */,
+				641D14851FB91F16009F9DCC /* DataBase.m in Sources */,
 				64D8F5131F9D5175005D0072 /* AppDelegate.swift in Sources */,
+				647F54DA1FAFCA470056A74D /* CustomCellPlatosTableViewCell.swift in Sources */,
+				646BE7F62002D9CE00F49296 /* CheffViewController.swift in Sources */,
+				64B31AD51FA690D60029B134 /* CategoriaCellTableViewCell.swift in Sources */,
 				64D8F5151F9D5175005D0072 /* FirstViewController.swift in Sources */,
+				647F54DC1FAFE1070056A74D /* DetallePlatoTableViewController.swift in Sources */,
+				641B8F8D201C8B0900D5957B /* OrdenCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,12 +331,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KHHC924H7Q;
 				INFOPLIST_FILE = "Proyecto-Restarurante/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AlejandroSklar.Proyecto-Restarurante";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Proyecto-Restarurante/Proyecto-Restarurante-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -293,12 +349,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KHHC924H7Q;
 				INFOPLIST_FILE = "Proyecto-Restarurante/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AlejandroSklar.Proyecto-Restarurante";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Proyecto-Restarurante/Proyecto-Restarurante-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
