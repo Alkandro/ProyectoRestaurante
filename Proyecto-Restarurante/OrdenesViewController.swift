@@ -28,9 +28,32 @@ class OrdenesViewController: UIViewController,UITableViewDelegate,UITableViewDat
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    override func viewDidAppear(_ animated: Bool) {
+        let montoTotal = calculoTotal()
+        montoTotalLbl.text = "Yenes\(montoTotal)"
+    }
     
     @IBAction func ordenarPedidoalServidor(_ sender: Any) {
+        
     }
+    func calculoTotal()->Float{
+        var total:Float = 0.0
+        for obj in arrayPlatosOrdenes{
+            
+            let cant = obj["cantidad_plato"]
+            let cantNum = Float(cant!)
+            
+            let precioUnit = obj["precio_unit"]
+            let precioNum = Float(precioUnit!)
+            
+            let semitotal = cantNum! * precioNum!
+            total = total + semitotal
+        }
+        return total
+    }
+    
+    
+    
 }
     extension OrdenesViewController {
         func numberOfSections(in tableView: UITableView) -> Int {
