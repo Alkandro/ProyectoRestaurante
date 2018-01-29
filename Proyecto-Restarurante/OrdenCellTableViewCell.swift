@@ -24,5 +24,14 @@ class OrdenCellTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    func calculoSemiTotal()->Float{
+        let cant = cantidadCell.text
+        let cantNum = Float(cant!)
+        
+        let precioUnit = precioUnitarioCell.text
+        let precioNum = Float(precioUnit!)
+        
+        let semitotal = cantNum! * precioNum!
+        return semitotal
+    }
 }

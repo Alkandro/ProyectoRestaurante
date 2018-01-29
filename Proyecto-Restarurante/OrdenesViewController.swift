@@ -20,8 +20,9 @@ class OrdenesViewController: UIViewController,UITableViewDelegate,UITableViewDat
        
     }
     override func viewWillAppear(_ animated: Bool) {
-        let datoOrden = dao.ejecutarSelect("select * from ordenes_pedido order dy id_pedido desc")
-        print(datoOrden!)
+        arrayPlatosOrdenes = dao.ejecutarSelect("select * from ordenes_pedido order by id_pedido desc") as! [[String : String]]
+        tableViewOrdenes.reloadData()
+       print(arrayPlatosOrdenes)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -37,12 +38,16 @@ class OrdenesViewController: UIViewController,UITableViewDelegate,UITableViewDat
             
         }
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-            return 10
+            return arrayPlatosOrdenes.count
             
         }
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             let cell = tableView.dequeueReusableCell(withIdentifier: "cellorden", for: indexPath) as! OrdenCellTableViewCell
-            
+            cell.nombreCell.text = arrayPlatosOrdenes[indexPath.row]["nombre_plato"]
+            cell.cantidadCell.text = arrayPlatosOrdenes[indexPath.row]["cantidad_plato"]
+            cell.precioUnitarioCell.text = arrayPlatosOrdenes[indexPath.row]["precio_unit"]
+            let semitot = cell.calculoSemiTotal()
+            cell.precioTotalCell.text = "\(semitot)"
             return cell
         }
 
