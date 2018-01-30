@@ -7,6 +7,7 @@
 //
 
 import UIKit
+//import Alamofire
 
 class OrdenesViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     var dao = DataBase()
@@ -34,7 +35,17 @@ class OrdenesViewController: UIViewController,UITableViewDelegate,UITableViewDat
     }
     
     @IBAction func ordenarPedidoalServidor(_ sender: Any) {
+        //se envia el arrar como objeto JSON al servidor
+        /* let parameters1:[String:Any] = ["datos":self.arrayPlatosOrdenes]
         
+        let urlString = "yourwebSite-backend"
+        
+        Alamofire.request(urlString,method: .post , parameters: parameters1, encoding: JSONEncoding.default, headers: [:]).responseJSON {
+            responseJSON in
+            
+                print(responseJSON)
+            
+        } */
     }
     func calculoTotal()->Float{
         var total:Float = 0.0
